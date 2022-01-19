@@ -1,0 +1,104 @@
+html {
+  background-color: rgb(180, 180, 180);
+  font-size: 18px;
+}
+
+.title {
+  margin-top: 4%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+section {
+  background-color:rgb(220, 220, 220);
+  padding: 15px 35px 15px 35px;
+  margin: 30px 3% 30px 3%;
+  border-radius: 25px;
+}
+
+h3 {
+  color: rgb(0, 117, 163);
+  text-decoration: underline;
+}
+
+.links {
+  color: rgb(0, 117, 163);
+}
+
+.links:hover {
+  color: rgb(18, 60, 136);
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+
+.container {
+  position: relative;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container1 {
+  border: 5px solid rgb(18, 60, 136);
+}
+
+.videos .images {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+  right: 4px;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 14px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  font-weight: bold;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: rgb(0, 117, 163);
+  padding: 2px 16px;
+  color: white;
+  font-weight: bold;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

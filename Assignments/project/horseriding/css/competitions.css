@@ -1,0 +1,52 @@
+html {
+  background-color: rgb(180, 180, 180);
+  font-size: 18px;
+}
+
+.title {
+  margin-top: 4%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+section {
+  background-color:rgb(220, 220, 220);
+  padding: 15px 35px 15px 35px;
+  margin: 50px 3% 50px 3%;
+  border-radius: 25px;
+}
+
+h3 {
+  color: rgb(0, 117, 163);
+  text-decoration: underline;
+}
+
+h2 {
+  color: rgb(0, 117, 163);
+  text-decoration: underline;
+}
+
+h4 {
+  color: rgb(0, 117, 163);
+  text-decoration: underline;
+}
+
+
+.links .links:visited {
+  color: rgb(0, 117, 163);
+}
+
+.links:hover {
+  color: rgb(18, 60, 136);
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+iframe {
+  max-width: 600;
+  width: auto;
+  height: auto;
+}

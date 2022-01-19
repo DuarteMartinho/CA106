@@ -1,0 +1,188 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel='icon' href='favicon.ico' type='image/x-icon'/>
+    <meta name="description" content="Project CA106" />
+    <!-- meta tag below is used for Internet Explorer and mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--This means that the browser will (probably) render the width of the page at the width of its own screen. //-->
+    <title>Project: CA106</title>
+    <link rel="stylesheet" href="../css/mainpage.css" />
+    <link rel="stylesheet" href="./css/Image.css" />
+	<link rel="stylesheet" href="./css/navbar.css" />
+<script>
+window.onload = function() {
+	showSlides();
+};
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  if (slideIndex === 1) { 
+  captionText.innerHTML = "Bench Press";
+	}
+	if (slideIndex === 2) { 
+  captionText.innerHTML = "Deadlift";
+	}
+	if (slideIndex === 3) { 
+  captionText.innerHTML = "Squat";
+	}
+	if (slideIndex === 4) { 
+  captionText.innerHTML = "Shoulder Press";
+	}
+	if (slideIndex === 5) { 
+  captionText.innerHTML = "Pull-Up";
+	}
+	if (slideIndex === 6) { 
+  captionText.innerHTML = "Bicep Curl";
+	}
+	if (slideIndex === 7) { 
+  captionText.innerHTML = "Judge's Panel";
+	}
+	if (slideIndex === 8) { 
+  captionText.innerHTML = "Bodybuilders on Stage";
+	}
+
+}
+</script>
+</head>
+<body>
+    <nav class="nav_bar">
+		<a href="https://student.computing.dcu.ie/~ca106-121/project/index.html"><img class="logo" src="./images/logo.png" alt="logo"></a>
+		<ul class="nav__links">
+			<li class="listitem"><a href="https://student.computing.dcu.ie/~ca106-121/project/gym/HomePage.html">Home Page</a></li>
+            <li class="listitem"><a href="https://student.computing.dcu.ie/~ca106-121/project/gym/BodyBuilding.html">BodyBuilding</a></li>
+            <li class="listitem"><a href="https://student.computing.dcu.ie/~ca106-121/project/gym/PowerLifting.html">Powerlifting</a></li>
+			<li class="listitem"><a href="#HomePage">Image Gallery</a></li>
+			<li class="listitem"><a href="https://student.computing.dcu.ie/~ca106-121/project/gym/VideoGallery.html">Video Gallery</a></li>
+		</ul>
+	</nav>
+	<main class="mainsection">
+	<div class="header-content">
+		<h1>Weighted Athletics</h1>
+		<p>"All our dreams can come true if we have the courage to pursue them." - Walt Disney</p>
+	</div>
+	<div class="overview">
+		<h1>Image Gallery</h1>
+	</div>
+	<div class="container">
+<div class="container1">
+  <div class="mySlides">
+    <div class="numbertext">1 / 8</div>
+    <img src="./images/bench.jpg" alt= "Image of a person performing the named exercise." style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 8</div>
+    <img src="./images/deadlift1.jpg" alt= "Image of a person performing the named exercise." style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 8</div>
+    <img src="./images/squat1.jpg" alt= "Image of a person performing the named exercise." style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 8</div>
+    <img src="./images/shoulder1.jpg" alt= "Image of a person performing the named exercise." style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 8</div>
+    <img src="./images/pull1.jpg" alt= "Image of a person performing the named exercise." style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 8</div>
+    <img src="./images/curl1.jpg" alt= "Image of a person performing the named exercise." style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">7 / 8</div>
+    <img src="./images/panel1.jpg" alt= "Image of a person performing the named exercise." style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">8 / 8</div>
+    <img src="./images/bodybuild1.jpg" alt= "Image of a person performing the named exercise." style="width:100%">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+</div>
+
+  <div class="row">
+    <div class="column">
+      <p class="demo cursor">
+    </div>
+    <div class="column">
+      <p class="demo cursor">
+    </div>
+    <div class="column">
+      <p class="demo cursor">
+    </div>
+    <div class="column">
+      <p class="demo cursor">
+    </div>
+    <div class="column">
+      <p class="demo cursor">
+    </div>    
+    <div class="column">
+      <p class="demo cursor">
+    </div>
+	<div class="column">
+      <p class="demo cursor">
+    </div>
+	<div class="column">
+      <p class="demo cursor">
+    </div>
+  </div>
+</div>
+	</main>
+<footer id = "footer">
+            <p> 
+                <span class="text_footer"> &copy;</span>
+                <a class="footer-a-tag" href="dcu.ie/">DCU 2019-2020</a>
+                <span class="text_footer">&middot;</span>
+                <span class="text_footer">CA106</span> 
+                <span class="text_footer">&middot;</span>
+				<span class="text_footer">Kevin Petrusevic</span>
+				<span class="text_footer">&middot;</span>
+                <span class="text_footer">Group 21</span> 
+                <span class="text_footer">&middot;</span> 
+                <span class="text_footer">Group Project</span> 
+                <span class="text_footer">&middot;</span> 
+                <span class="text_footer">Lecturer <a class="footer-a-tag" href="http://www.computing.dcu.ie/~jkernan">Jane Kernan</a></span> 
+                <span class="text_footer">&middot;</span> 
+                <span class="text_footer">
+                    <a class="footer-a-tag" href="http://validator.w3.org/check?uri=referer" title="W3C HTML Validation Service" >Valid HTML</a><br/>
+                </span> 
+            </p>              
+</footer>
+</body>
+</html>

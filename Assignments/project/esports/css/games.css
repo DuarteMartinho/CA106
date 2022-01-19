@@ -1,0 +1,133 @@
+/* layout */
+html {
+  height: auto;
+  background-color: #84CEEB;
+  background-image: linear-gradient( #9dddf7, #108dcc);
+}
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.centertext {
+  text-align: center;
+}
+
+.vid {
+  border: 2px solid #8860D0;
+  border-radius: 25px;
+  margin-top: 20px;
+  margin-right: 35%;
+}
+
+.centerbox {
+  margin: auto;
+  width: auto;
+  border-radius: 25px solid #8860D0;
+  padding: 10px;
+}
+
+/* Rounded corners - w3schools */
+#rcornersHEADER {
+  border-radius: 25px;
+  background: #c1c8e4bb;
+  border: 2px solid #8860D0;
+  padding: 10px; 
+  font-size: 24px;
+}
+
+.rcorners1 {
+  
+  border-radius: 25px;
+  background: #c1c8e4bb;
+  border: 2px solid #8860D0;
+  font-size: 24px;
+  padding: 10px;
+}
+
+.image {
+  border: 2px solid #8860D0;
+  border-radius: 25px;
+}
+
+/* COLUMNS */
+/* row1 */
+.column {
+  float: left;
+  width: 60%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 1%;
+  height: 30%;
+}
+.column2 {
+  float: left;
+  width: auto;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  margin-left: 1%;
+  height: 30%;
+}
+
+/* row2 */
+.column3 {
+  float: left;
+  width: auto;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  margin-left: 1%;
+  height: 30%;
+}
+.column4 {
+  float: left;
+  width: 60%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 1%;
+  height: 30%;
+}
+
+/* row3 */
+.column5 {
+  float: left;
+  width: auto;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  margin-left: 1%;
+  height: 30%;
+}
+.column6 {
+  float: left;
+  width: 60%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 1%;
+  height: 30%;
+}
+
+.indent {
+  margin-left: 1%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* footer */
+.footer-layout {
+	color: #1ed2d8;
+	text-align: center;
+	font-size: 18px;
+}
+
+.footer-text {
+	color: #29585a;
+}
+
+.footer-text2 {
+	color:#1ed2d8;
+}

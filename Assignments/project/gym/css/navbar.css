@@ -1,0 +1,42 @@
+ /* FIX POSITION ON OTHER DEVICES */
+ 
+.mainsection {
+	margin-top: 100px;
+}
+  
+ 
+@media screen and (max-width: 958px) {
+  .mainsection {
+    margin-top: 172px;
+  }
+}
+  
+@media screen and (max-width: 825px) {
+  .mainsection {
+    margin-top: 244px;
+  }
+}
+  
+@media screen and (max-width: 494px) {
+  .mainsection {
+    margin-top: 316px;
+  }
+}
+  
+@media screen and (max-width: 340px) {
+  .mainsection {
+    margin-top: 388px;
+  }
+}
+  
+@media screen and (max-width: 339px) {
+  .mainsection {
+    margin-top: 460px;
+  }
+}
+
+@media screen and (max-width: 188px) {
+  .mainsection {
+    margin-top: 532px;
+  }
+} 

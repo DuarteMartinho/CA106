@@ -1,0 +1,33 @@
+.mainsection {
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 850px) {
+    .mainsection {
+      margin-top: 100px;
+    }
+  }
+    
+  @media screen and (max-width: 750px) {
+    .mainsection {
+      margin-top: 100px;
+    }
+  }
+    
+  @media screen and (max-width: 688px) {
+    .mainsection {
+      margin-top: 172px;
+    }
+  }
+    
+  @media screen and (max-width: 555px) {
+    .mainsection {
+      margin-top: 244px;
+    }
+  }
+    
+  @media screen and (max-width: 321px) {
+    .mainsection {
+      margin-top: 316px;
+    }
+  } 

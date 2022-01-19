@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel='icon' href='favicon.ico' type='image/x-icon'/>
+    <meta name="description" content="Project CA106" />
+    <!-- meta tag below is used for Internet Explorer and mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--This means that the browser will (probably) render the width of the page at the width of its own screen. //-->
+    <title>Project: CA106</title>
+    <link rel="stylesheet" href="./css/mainpage.css"/>
+    <link rel="stylesheet" href="./css/contact.css"/>
+    <script>
+        // Get all elements with class="closebtn"
+        var close = document.getElementsByClassName("closebtn");
+        var i;
+        
+        // Loop through all close buttons
+        for (i = 0; i < close.length; i++) {
+          // When someone clicks on a close button
+          close[i].onclick = function(){
+        
+            // Get the parent of <span class="closebtn"> (<div class="alert">)
+            var div = this.parentElement;
+        
+            // Set the opacity of div to 0 (transparent)
+            div.style.opacity = "0";
+        
+            // Hide the div after 600ms (the same amount of milliseconds it takes to fade out)
+            setTimeout(function(){ div.style.display = "none"; }, 600);
+          }
+        }
+        function myFunction() {
+            var classes = document.getElementsByClassName("alert");
+            classes[0].style.display = "block";
+        }
+        
+    </script>
+</head>
+<body>
+    <nav class="nav_bar">
+        <a href="./index.html"><img class="logo" src="images/logo.png" alt="logo"></a>
+        <ul class="nav__links">
+            <li class="listitem"><a href="./football/index.html">Football</a></li>
+            <li class="listitem"><a href="./gym/HomePage.html">Weighted Athletics</a></li>
+            <li class="listitem"><a href="./esports/index.html">Esports</a></li>
+            <li class="listitem"><a href="./horseriding/index.html">Horse Riding</a></li>
+            <li class="listitem"><a href="./jiujitsu/index.html">Jiu Jitsu</a></li>
+            <li class="listitem"><a class="button_contact" href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main class="mainsection">
+        <h1 class="title"></h1>
+        <section id="intro">
+            <div class="alert" style="display: none;">
+                <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+                Form has been submitted.
+            </div>
+            <p class="titlesection">Contact Us</p>
+            <form id="form" action="javascript:;" onsubmit="myFunction()">
+                <label for="name">Full Name: <span style="color: red;">*</span></label>
+                <br>
+                <input type="text" name="name" id="name" required>
+                <br>
+                <br>
+                <label for="tel">Phone Number: </label>
+                <br>
+                <input type="tel" name="tel" id="tel">
+                <br>
+                <br>
+                <label for="email">Email Address: <span style="color: red;">*</span></label>
+                <br>
+                <input type="email" name="email" id="email" required>
+                <br>
+                <br>
+                <label for="subject">Subject: <span style="color: red;">*</span> </label>
+                <br>
+                <select id="subject" name="subject" required>
+                        <option value="Football">Football</option>
+                        <option value="Gym">Weighted Athletics</option>
+                        <option value="Esports">eSports</option>
+                        <option value="HorseRiding">Horse Riding</option>
+                        <option value="JiuJitsu">Jiu Jitsu</option>
+                    </select>
+                <br>
+                <br>
+                <label for="message">Your Message: <span style="color: red;">*</span></label>
+                <br>
+                <textarea type="text" name="message" id="message" required> </textarea>
+                <br>
+                <br>
+                <input type="submit" onclick="" name="Submit" id="submit" value="Submit">
+            </form>
+        </section>
+        <section id="aboutus">
+            <p class="titlesection">About Us</p>
+            <h2>Duarte Martinho</h2>
+            <p>
+                Mistakes:
+            </p>
+            <ul>
+                <li>Was linking the pages wrong and not using absolute.</li>
+                <li>Problem resizing images.</li>
+            </ul>
+            <p>
+                Contribution:
+            </p>
+            <ul>
+                <li><a href="./horseriding/index.html">Horse Riding - Home Page</a></li>
+                <li><a href="./horseriding/breeds.html">Horse Riding - Breeds</a></li>
+                <li><a href="./horseriding/competitions.html">Horse Riding - Competitions</a></li>
+                <li><a href="./horseriding/typesofriding.html">Horse Riding - Types Of Riding</a></li>
+                <li><a href="./horseriding/gallery.html">Horse Riding - Gallery</a></li>
+                <li><a href="./index.html">Home Page - Footer and Nav Bar</a></li>
+                <li><a href="./index.html">Home Page - Slideshow</a></li>
+                <li><a href="./contact.html">Contact Form</a></li>
+                
+            </ul>
+            <br>
+            <h2>Kevin Petrusevic</h2>
+            <p>
+                Mistakes:
+            </p>
+            <ul>
+                <li>Fonts and colors wasn't working at the start so I had to re start it.</li>
+                <li>Started late ended up rushing through some stuff.</li>
+            </ul>
+            <p>
+                Contribution:
+            </p>
+            <ul>
+                <li><a href="./gym/HomePage.html">Weighted Athletics - Home Page</a></li>
+                <li><a href="./gym/BodyBuilding.html">Weighted Athletics - Body Building</a></li>
+                <li><a href="./gym/PowerLifting.html">Weighted Athletics - Power Lifting</a></li>
+                <li><a href="./gym/ImageGallery.html">Weighted Athletics - Image Gallery</a></li>
+                <li><a href="./gym/VideoGallery.html">Weighted Athletics - Video Gallery</a></li>
+                <li><a href="./index.html">Home Page - Help with footer</a></li>
+                <li><a href="./contact.html">Contact Form</a></li>
+            </ul>
+            <br>
+            <h2>Dylan Corbari</h2>
+            <p>
+                Mistakes:
+            </p>
+            <ul>
+                <li>Struggled to make a HTML and CSS page that fits across different screen sizes.</li>
+                <li>Struggled to have a nice color scheme with the background image.</li>
+            </ul>
+            <p>
+                Contribution:
+            </p>
+            <ul>
+                <li><a href="./football/HomePage.html">Football - Home Page</a></li>
+                <li><a href="./football/History.html">Football - History</a></li>
+                <li><a href="./football/Rules.html">Football - Rules</a></li>
+                <li><a href="./football/Teams.html">Football - Teams</a></li>
+                <li><a href="./football/Media.html">Football - Media</a></li>
+            </ul>
+            <br>
+            <h2>Dawid Lewinski</h2>
+            <p>
+                Mistakes:
+            </p>
+            <ul>
+                <li>Using `br` tag in place of CSS.</li>
+                <li>Struggled with centering boxes.</li>
+            </ul>
+            <p>
+                Contribution:
+            </p>
+            <ul>
+                <li><a href="./esports/index.html">eSports - HomePage</a></li>
+                <li><a href="./esports/competition.html">eSports - Competitions</a></li>
+                <li><a href="./esports/prizes.html">eSports - Prizes</a></li>
+                <li><a href="./esports/games.html">eSports - Games</a></li>
+                <li><a href="./index.html">eSports - Gallery</a></li>
+                <li><a href="./index.html">Home Page - Help With CSS</a></li>
+            </ul>
+            <br>
+            <h2>Liam Molloy</h2>
+            <p>
+                Mistakes:
+            </p>
+            <ul>
+                <li>Struggled to resize for different screen sizes.</li>
+                <li>Struggled to get table into the place.</li>
+            </ul>
+            <p>
+                Contribution:
+            </p>
+            <ul>
+                <li><a href="./jiujitsu/index.html">Jiu Jitsu - Home Page</a></li>
+                <li><a href="./jiujitsu/benefits.html">Jiu Jitsu - Benefits</a></li>
+                <li><a href="./jiujitsu/history.html">Jiu Jitsu - History</a></li>
+                <li><a href="./jiujitsu/belts.html">Jiu Jitsu - Belts</a></li>
+                <li><a href="./jiujitsu/videos.html">Jiu Jitsu - Videos</a></li>
+                <li><a href="./index.html">Home Page - PhotoShop the pictures</a></li>
+                <li><a href="./index.html">Home Page - Favicon + logo and nav bar</a></li>
+            </ul>
+            <br>
+        </section>
+    </main>
+    <footer id = "footer">
+        <p> 
+            <span class="text_footer"> &copy;</span>
+            <a class="footer-a-tag" href="https://dcu.ie/">DCU 2019-2020</a>
+            <span class="text_footer">&middot;</span>
+            <span class="text_footer">CA106</span> 
+            <span class="text_footer">&middot;</span>
+            <span class="text_footer">Group 21</span> 
+            <span class="text_footer">&middot;</span> 
+            <span class="text_footer">Group Project</span> 
+            <span class="text_footer">&middot;</span> 
+            <span class="text_footer">Lecturer <a class="footer-a-tag" href="http://www.computing.dcu.ie/~jkernan">Jane Kernan</a></span> 
+            <span class="text_footer">&middot;</span> 
+            <span class="text_footer">
+                <a class="footer-a-tag" href="http://validator.w3.org/check?uri=referer" title="W3C HTML Validation Service" >Valid HTML</a><br/>
+            </span> 
+        </p>              
+    </footer>
+</body>
+</html>

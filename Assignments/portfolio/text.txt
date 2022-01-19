@@ -1,0 +1,141 @@
+ABOUT ME
+My name is Duarte Martinho. I m from Portugal and I am 18 years old, currently living in Ireland.I am an ambitious, self-motivated and hardworking, and sometimes a perfectionist.
+I went to school in Ireland since primary school, I did my leaving Cert in 2020 and started college in 2020 as well.
+I am currently a First Year Student of Computer Applications/Computer Science in Dublin City University.
+In my free time I like to go out to my friends and to play games on the computer.
+
+LinkedIn: Duarte Martinho https://ie.linkedin.com/in/duartemartinho
+
+WORK EXPERIENCE
+Summer Internship - 2019
+IBM Ireland
+Damastown, Dublin
+Helping Cloud Team preparing PowerPoints about Kubernetes, Containers,
+Virtual Machines and Bare Metals. Made a Competition comparison for
+products in the IBM’s catalog, also used Pivot Tables and formulas to organize
+data.
+
+Part Time Job September - December 2019
+Supervalu
+Navan, Meath
+I was on the help desk on customer support, resolving customers problems regarding orders or any other problem, also was taking orders over the phone.
+
+
+PICTURES
+1
+Portugal was were I lived for most of my life. 
+<br>
+There I learned a lot of stuff and that is where I grew up half of my life. 
+<br>
+I still have some family over there which is nice to go see them.
+<br>
+I can see a big difference from Ireland to Portugal specially on the food, culture and the weather.
+                            
+2
+Computers is somethings I am interested in and I enjoy playing games and talking to friends. <br>
+Now-a-days we are able to do anything on a computer like work, research information, and communicate with people far away.
+
+3
+Programming has been something I have been interested in since I was young as my grandad and my uncle are in the same area.
+<br>
+Since young I watched them make games, websites and programs.
+<br>
+So since a few years I have been self teaching myself on how to program.
+
+
+/* SIDEBAR STYLE */
+/* Sidebar fixed to left */
+.sidebar {
+    /* FIX THE POSTION TO TOP */
+    position: absolute;
+
+    /* POSITION */
+    float: left;
+    top: auto;
+    left: 0px;
+    width: 160px;
+    height: 100%;
+    padding: 30px 0px;
+
+    /* BACKGROUND COLOR */
+    background: rgba(19, 19, 20, 1);
+        
+}
+
+nav {
+    /* ALIGN TO CENTER */
+    text-align: center;
+}
+
+.bullet_points_remove {
+    /* Removes Bullet Point */
+    list-style-type: none;
+}
+
+.navbar_settings {
+    /* SETTINGS */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 90%;
+}
+
+li a{
+    width: 100px;
+
+    /* SPACE OUT */
+    margin: 10px 20px 10px 20px;
+    /* SPACE IN */
+    padding: 10px 5px 10px 5px;
+    display: block;
+    background-color: rgba(34, 35, 37, 1);
+    
+    color: rgb(204, 204, 204, 1);
+
+    /* Round borders */
+    border-radius: 10px;
+    border: 2px solid rgba(0, 145, 202, 0.4);
+}
+
+li a:hover {
+    /* UPDATE COLOR ON HOVER*/
+    background-color: rgba(0, 145, 202, 0.4);
+    border: 2px solid rgba(0, 145, 202, 0.849);
+}
+
+
+nav {
+    /* ALIGN TO CENTER */
+    text-align: center;
+    background-color: aliceblue;
+    display: inline-block;
+}
+
+.bullet_points_remove {
+    /* Removes Bullet Point */
+    list-style-type: none;
+}
+
+li a{
+    float: left;
+    width: 100px;
+
+    /* SPACE OUT */
+    margin: 10px 20px 10px 20px;
+    /* SPACE IN */
+    padding: 10px 5px 10px 5px;
+    
+    background-color: rgba(34, 35, 37, 1);
+    
+    color: rgb(204, 204, 204, 1);
+
+    /* Round borders */
+    border-radius: 10px;
+    border: 2px solid rgba(0, 145, 202, 0.4);
+}
+
+li a:hover {
+    /* UPDATE COLOR ON HOVER*/
+    background-color: rgba(0, 145, 202, 0.4);
+    border: 2px solid rgba(0, 145, 202, 0.849);
+}

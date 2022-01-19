@@ -1,0 +1,80 @@
+html {
+    background:url("../Images/Background.jpg") no-repeat center center fixed;
+    /* background was found from unsplashed */
+    
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  
+    body {
+      font-family: "Sofia";
+      font-size: 22px;
+    }
+    
+    h1 {
+      color: rgb(85, 128, 233);
+      margin-left: 20px;
+      font-size: 60px
+    }
+  
+  h2 {
+  color: rgb(85, 128, 233);
+  margin-left: 20px;
+  }
+  
+  /* flexible content images code */
+  
+  /* navigation styles */
+  
+  
+  /* page header styles*/
+  
+  
+  /* main layout */
+  h1 {
+      width: 600px;
+      padding: 10px;
+      border: 5px solid rgb(137, 96, 208);
+      margin: 0;
+    }
+  
+    h2 {
+      width: 320px;
+      padding: 10px;
+      border: 5px solid rgb(85, 128, 233);
+      margin: 0;
+    }
+  
+
+  /* styling for the section content */
+  
+ 
+ img {
+   float:left;
+ }
+
+ .p1 {
+   float:right
+   font-weight: 900;
+ }
+  
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 644px;
+    height: 20px;
+    margin: 0 auto;
+}
+  /* background colours for sections */
+  
+  
+  /* form styling */
+  
+  
+  /* footer styling */
+  
+  
+  

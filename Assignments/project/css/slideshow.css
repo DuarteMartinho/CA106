@@ -1,0 +1,126 @@
+/* 
+
+THIS CSS FILE WAS EDITED TO OUR NEEDS AND THE CODE IS FROM
+https://www.w3schools.com/howto/howto_js_slideshow.asp
+
+*/
+
+* {box-sizing:border-box}
+
+@media screen and (max-width: 981px) {
+  .slideshow {
+    margin-top: 72px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .slideshow {
+    margin-top: 144px;
+  }
+}
+
+@media screen and (max-width: 447px) {
+  .slideshow {
+    margin-top: 250px;
+  }
+}
+
+@media screen and (max-width: 334px) {
+  .slideshow {
+    margin-top: 330px;
+  }
+}
+
+@media screen and (max-width: 275px) {
+  .slideshow {
+    margin-top: 440px;
+  }
+}
+
+@media screen and (max-width: 236px) {
+  .slideshow {
+    margin-top: 550px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .logo {
+      position: relative;
+      margin-left: 45%;
+      margin-right: auto;
+  }
+}
+
+/* Slideshow section */
+.slideshow {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 7%;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(114, 114, 114);
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: rgba(90, 184, 235, 1);
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .8}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .8}
+  to {opacity: 1}
+}

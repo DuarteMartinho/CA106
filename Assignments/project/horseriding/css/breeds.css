@@ -1,0 +1,92 @@
+html {
+  background-color: rgb(180, 180, 180);
+  font-size: 18px;
+}
+
+.title {
+  margin-top: 4%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.hover_text {
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 30%;
+  flex: 30%;
+  max-width: 32%;
+  margin: 8px;
+
+}
+
+.column img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 733px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+  .row {
+    margin-left: 0%;
+    margin-right: 20px;
+  }
+}
+
+.container {
+  position: relative;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

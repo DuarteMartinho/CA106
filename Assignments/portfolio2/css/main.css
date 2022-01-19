@@ -1,0 +1,412 @@
+/* CSS MAIN */
+/* SOME PARTS OF THIS CSS WERE RESEARCHED ON 
+GOOGLE https://www.google.ie/
+OR
+W3SCHOOLS https://www.w3schools.com/
+
+ANY CODE ENCOUNTERED ON THESE WEBSITES WAS THEN MODIFIED TO MY NEEDS
+*/
+
+/* 
+PALLETE COLOR
+COLOR1: rgba(4, 5, 5, 1)
+COLOR2: rgba(19, 19, 20, 1)
+COLOR3: rgba(34, 35, 37, 1)
+COLOR4: rgba(48, 50, 54, 1)
+COLOR5: rgba(59, 63, 72, 1)
+
+BORDER COLOR: rgb(204, 204, 204, 1)
+BOX SHADOW: rgba(0, 0, 0, 1)
+
+DETIALS COLOR: rgba(0, 145, 202, 0.4)
+*/
+
+html { 
+    /* SET FONT */
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    /* Background Color */
+    background-color: rgba(48, 50, 54, 1);
+}
+
+
+/* Header STYLE*/
+header {
+    /* FIX THE POSTION (TOP)*/
+    position: absolute;
+
+    /* POSITION */
+    float: left;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    
+    /* HEADER COLOR */
+    background: rgba(19, 19, 20, 1);
+
+    /* TEXT COLOR */
+    color: white;
+
+    /* ALIGN TO CENTER */
+    text-align: center;
+    
+    /* BORDER STYLE */
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+    border-color: rgb(204, 204, 204, 1);
+}
+
+/* TITLE AND SUBTITLE STYLE */
+.header_title {
+    /* BOX SETTINGS */
+    margin: 10px;
+
+    /* TEXT SETTINGS */
+    font-size: 25px;
+    color:  rgb(204, 204, 204, 1);
+}
+
+.titles_align {
+    text-align: center;
+}
+
+main {
+    
+    /* POSITION */
+    top: 0px;
+    width: 100%;
+
+    /* SETTINGS */
+    padding-top: 70px;
+    margin: 30px 0px 20px 0px;
+    height: 100%;
+
+    /* ALIGN TO CENTER */
+    text-align: center;
+}
+
+
+
+
+.subtitle_nav {
+    /* TEXT SETTINGS */
+    font-size: 18px;
+    color:  rgb(204, 204, 204, 1);
+}
+
+.navbar_settings {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar_section {
+    color: rgb(155, 155, 155);
+
+    /* COLOR */
+    background-color: rgba(34, 35, 37, 1);
+    padding: 5px 0px 5px 0px;
+    margin: 60px 0px 60px 0px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* BOX SETTINGS */
+    border-radius: 10px;
+    /* SHADOW */
+    box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 1);
+}
+
+nav {
+    /* ALIGN TO CENTER */
+    text-align: center;
+    display: inline-block;
+}
+
+.bullet_points_remove {
+    /* Removes Bullet Point */
+    list-style-type: none;
+}
+
+li a{
+    float: left;
+    width: 200px;
+
+    /* SPACE OUT */
+    margin: 5px 10px 5px 10px;
+    /* SPACE IN */
+    padding: 10px 5px 10px 5px;
+    
+    background-color: rgba(34, 35, 37, 1);
+    
+    color: rgb(204, 204, 204, 1);
+
+    /* Round borders */
+    border-radius: 10px;
+    border: 2px solid rgba(0, 145, 202, 0.4);
+}
+
+li a:hover {
+    /* UPDATE COLOR ON HOVER*/
+    background-color: rgba(0, 145, 202, 0.4);
+    border: 2px solid rgba(0, 145, 202, 0.849);
+}
+
+
+
+/* SECTION STYLE*/
+section {
+    /* TEXT */
+    text-align: left;
+    color: rgb(155, 155, 155);
+
+    /* COLOR */
+    background-color: rgba(34, 35, 37, 1);
+    padding: 5px 0px 5px 0px;
+    margin: 60px 0px 60px 0px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* BOX SETTINGS */
+    border-radius: 10px;
+    /* SHADOW */
+    box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 1);
+}
+
+
+/* box-content */
+.box-content { 
+    /* BOX SETTINGS */
+    padding: 0px 10px 0px 20px;
+}
+
+
+/* content inside .box-content */
+.content { 
+    /* BOX SETTINGS */
+    padding: 0px 10px 0px 0px;
+    font-size: 16px;
+    height: auto;
+    /* TEXT COLOR */
+    color:rgb(204, 204, 204, 1);
+}
+
+/* OTHER CONTENT */
+.title_content { 
+    /* BOX SETTINGS */
+    margin: 10px;
+    font-size: 26px;
+    color: rgba(0, 178, 248, 0.801);
+}
+
+
+/* STYLE TEXT FOT a TAG FOR ABOUT ME SECTION */
+.a_tag_text{
+    color:rgba(0, 145, 202, 0.6);
+}
+
+/* ON HOVER */
+.a_tag_text:hover{
+    color:rgb(204, 204, 204, 1);
+}
+
+
+.image_design {
+    color: aliceblue;
+
+    /* CENTER IMAGE IN COLLUMN */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* ROUND CORNERS */
+    border-radius: 10px;
+}
+
+/* 
+CODE FROM
+https://www.w3schools.com/css/tryit.asp?filename=trycss_mediaqueries_flex 
+AND THEN MODIFIED FOR MY NEEDS
+*/
+
+
+/* Container for flexboxes */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+/* Create four equal columns */
+.column {
+    margin: 20px;
+    flex: 25%;
+    padding: 20px;
+
+    /* TEXT COLOR */
+    color:rgb(204, 204, 204, 1);
+
+    /* BACKGROUND COLOR */
+    background-color: rgba(0, 40, 56, 0.308);
+    
+    /* BORDER */
+    border: 2px solid rgba(0, 145, 202, 0.6);
+
+    /* ROUND CORNERS */
+    border-radius: 10px;
+    
+}
+  
+/* On screens that are 800px wide or less, go from four columns to two columns */
+
+  
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+    .row {
+      flex-direction: column;
+    }
+}
+
+/* CODE END */
+
+
+/* FORM STYLE */
+.row_form {
+    /* FORM SETTINGS */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    height: auto;
+}
+
+.left_of_form {
+    /* TEXT ALIGN */
+    text-align: left;
+    
+    /* SETTINGS */
+    float: left;
+    width: 15%;
+    min-width: 80px;
+}
+
+.right_of_form {
+    /* TEXT ALIGN */
+    text-align: left;
+
+    /* SETTINGS */
+    float: right;
+    width: 80%;
+}
+
+.identidier_spacing {
+    /* SETTING */
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.input_fields { 
+    /* ALIGN TO LEFT */
+    text-align: left;
+
+    /* SETTINGS */
+    height: 30px;
+    width: 300px;
+
+    /* BACKGROUND COLOR */
+    background-color: rgba(34, 35, 37, 1);
+    
+    /* TEXT COLOR */
+    color: rgb(204, 204, 204, 1);
+
+    /* Round borders */
+    border-radius: 10px;
+    border: 2px solid rgba(0, 145, 202, 0.4);
+}
+
+.input_fields_text {
+    /* ALIGN TO LEFT */
+    text-align: left;
+
+    /* SETTINGS */
+    width: 300px;
+    background-color: rgba(34, 35, 37, 1);
+    
+    /* TEXT COLOR */
+    color: rgb(204, 204, 204);
+
+    /* Round borders */
+    border-radius: 10px;
+    border: 2px solid rgba(0, 145, 202, 0.4);
+}
+
+
+.button_submit {
+    /* SPACE IN */
+    padding: 10px 15px 10px 15px;
+    
+    /* COLOR */
+    background-color: rgba(34, 35, 37, 1);
+    /* TEXT COLOR */
+    color: rgb(204, 204, 204, 1);
+
+    /* Round borders */
+    border-radius: 20px;
+    border: 2px solid rgba(0, 145, 202, 0.4);
+}
+
+/* LOOKED UP HOW TO MAKE CHANGE CSS ON HOVER (W3SCHOOLS)*/
+.button_submit:hover {
+    /* UPDATE COLOR ON HOVER*/
+    background-color: rgba(0, 145, 202, 0.4);
+    border: 2px solid rgba(0, 145, 202, 0.849);
+}
+
+.center_button {
+    /* ALIGN TO CENTER */
+    text-align: center;
+}
+
+/*
+Looked up how to remove default outline 
+https://stackoverflow.com/questions/12297600/how-to-remove-default-chrome-style-for-select-input 
+*/
+textarea, input { outline: none; }
+
+
+/* FOOTER STYLE */
+footer {
+    /* FIX THE POSTION (TOP)*/
+    position: absolute;
+
+    /* POSITION */
+    float: left;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    
+    /* HEADER COLOR */
+    background: rgba(19, 19, 20, 1);
+
+    /* TEXT COLOR */
+    color: white;
+
+    /* ALIGN TO CENTER */
+    text-align: center;
+    
+    /* BORDER STYLE */
+    border-width: 2px 0px 0px 0px;
+    border-style: solid;
+    border-color: rgb(204, 204, 204, 1);
+}
+
+.footer-text {
+    /* TEXT COLOR */
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-a-tag {
+    /* TEXT COLOR */
+    color:  rgba(0, 145, 202, 0.849);
+}

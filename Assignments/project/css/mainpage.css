@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html {
+    font-family: "Montserrat", sans-serif;
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.nav__links {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.listitem {
+    float: left;
+    margin: 10px;
+}
+  
+.listitem a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 15px;
+}
+
+.listitem a:hover {
+    color: rgb(92, 195, 255);
+} 
+
+.nav_bar {
+    position: absolute;
+    display: inline;
+    float: right;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+    top: 0;
+    right: 0;
+    height: auto;
+    width: 100%;
+    margin-bottom: 2px;
+}
+ 
+.logo {
+    margin-left: 18px;
+    cursor: pointer;
+    width: 115px;
+    height: 70px;
+}
+
+.button_contact {
+    padding: 9px 20px;
+    background-color: rgb(24, 144, 224);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.button_contact:hover {
+    background-color: rgb(61, 8, 185);
+}
+
+footer {
+    /* FIX THE POSTION (TOP)*/
+    position: absolute;
+
+    /* POSITION */
+    float: left;
+    left: 0;
+    width: 100%;
+    height: auto;
+    
+    /* HEADER COLOR */
+    background-color: white;
+
+    /* TEXT COLOR */
+    color: rgb(0, 0, 0);
+
+    /* ALIGN TO CENTER */
+    text-align: center;
+
+}
+
+.footer-text {
+    /* TEXT COLOR */
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-a-tag {
+    /* TEXT COLOR */
+    color:  rgba(1, 177, 247, 0.849);
+}
+
+.footer-a-tag:hover {
+    color: rgb(18, 60, 136);
+} 

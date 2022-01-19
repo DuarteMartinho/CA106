@@ -1,0 +1,33 @@
+.active {
+    color: rgb(92, 195, 255);
+}
+  
+.mainsection {
+    margin-top: 75px;
+}
+  
+/* FIX POSITION ON OTHER DEVICES */
+    
+@media screen and (max-width: 868px) {
+    .mainsection {
+      margin-top: 144px;
+    }
+}
+    
+@media screen and (max-width: 733px) {
+    .mainsection {
+      margin-top: 216px;
+    }
+}
+    
+@media screen and (max-width: 441px) {
+    .mainsection {
+      margin-top: 285px;
+    }
+}
+    
+@media screen and (max-width: 310px) {
+    .mainsection {
+      margin-top: 460px;
+    }
+}

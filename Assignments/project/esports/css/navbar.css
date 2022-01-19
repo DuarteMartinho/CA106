@@ -1,0 +1,45 @@
+/* FIX POSITION ON OTHER DEVICES */
+.mainsection{
+    margin-top: 100px;
+}
+@media screen and (max-width: 768px) {
+    .mainsection {
+      margin-top: 172px;
+    }
+  }
+    
+  @media screen and (max-width: 751px) {
+    .mainsection {
+      margin-top: 172px;
+    }
+  }
+    
+  @media screen and (max-width: 635px) {
+    .mainsection {
+      margin-top: 244px;
+    }
+  }
+    
+  @media screen and (max-width: 424px) {
+    .mainsection {
+      margin-top: 244px;
+    }
+  }
+    
+  @media screen and (max-width: 335px) {
+    .mainsection {
+      margin-top: 316px;
+    }
+  } 
+  
+  @media screen and (max-width: 301px) {
+    .mainsection {
+      margin-top: 388px;
+    }
+  } 
+  
+  @media screen and (max-width: 227px) {
+    .mainsection {
+      margin-top: 460px;
+    }
+  } 

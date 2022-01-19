@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+        <link rel='icon' href='favicon.ico' type='image/x-icon'/>
+        <title id="rcornersHEADER">Gallery</title>
+        <meta name="author" content="">
+        <meta name="description" content="eSports - Mainpage">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/gallery.css"/>
+        <link rel="stylesheet" href="./css/navbar.css"/>
+        <link rel="stylesheet" href="../css/mainpage.css"/>
+        <script>
+window.onload = function() {
+    showSlides();
+};
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  if (slideIndex === 1) { 
+  captionText.innerHTML = "Image of an eSports Stadium";
+    }
+    if (slideIndex === 2) { 
+  captionText.innerHTML = "eSport team representing their country";
+    }
+    if (slideIndex === 3) { 
+  captionText.innerHTML = "Players winning a money prize";
+    }
+    if (slideIndex === 4) { 
+  captionText.innerHTML = "Fans receiving autograph from professionals";
+    }
+    if (slideIndex === 5) { 
+  captionText.innerHTML = "Fans perspective of a tournament";
+    }
+    if (slideIndex === 6) { 
+  captionText.innerHTML = "Professional players at work";
+    }
+    if (slideIndex === 7) { 
+  captionText.innerHTML = "Professionals celebrating a victory";
+    }
+    if (slideIndex === 8) { 
+  captionText.innerHTML = "The eSports trophy";
+    }
+    if (slideIndex === 9) { 
+  captionText.innerHTML = "Prize cheque";
+    }
+    if (slideIndex === 10) { 
+  captionText.innerHTML = "Top 10 most watched eSports games";
+    }
+    if (slideIndex === 11) { 
+  captionText.innerHTML = "Image of Counter-Strike; Global Offensive";
+    }
+    if (slideIndex === 12) { 
+  captionText.innerHTML = "Steam activity statistics";
+    }
+
+}
+</script>
+</head>
+    <body>
+ <nav class="nav_bar">
+        <a href="../index.html"><img class="logo" src="./img/logo.png" alt="logo"></a>
+        <ul class="nav__links">
+            <li  class="listitem"><a href="./index.html">eSports</a></li>
+            <li  class="listitem"><a href="./competition.html">Competitions</a></li>
+            <li  class="listitem"><a href="./prizes.html">Prizes</a></li>
+            <li  class="listitem"><a href="./games.html">Games</a></li>
+            <li  class="listitem"><a style="color: #5cc3ff;" href="./gallery.html">Gallery</a></li>
+        </ul>
+ </nav>
+    <main class="mainsection">
+            <h1>Gallery</h1>
+    </main>
+    <div class="container">
+<div class="container1">
+  <div class="mySlides">
+    <div class="numbertext">1 - 12</div>
+    <img alt= "Image of eSports Stadium." src="./img/esportstadium1.jpg" height="500" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 - 12</div>
+    <img alt= "Image of professional players sitting next to eachother." src="./img/proplayers1.jpg" height="500" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 - 12</div>
+    <img alt= "Image of a team receiving prize money." src="./img/esportsprize1.jpg" height="500" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 - 12</div>
+    <img alt= "Fan receiving an autograph." src="./img/esfansign1.jpg" height="500" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 - 12</div>
+    <img alt= "Image of fan perspective of a tournament." src="./img/stadiumcompetition1.jpg" height="500" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 - 12</div>
+    <img alt= "Image of professional players at work." src="./img/esplayers1.jpg" height="500" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">7 - 12</div>
+    <img alt= "Team Celebrating." src="./img/celebration1.jpg" height="500" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">8 - 12</div>
+    <img alt= "Image the eSports trophy." src="./img/escup1.jpg" height="500" style="width:100%">
+  </div>
+    <div class="mySlides">
+    <div class="numbertext">9 - 12</div>
+    <img alt= "Image of cheque prize." src="./img/esportmoney1.jpg" height="500" style="width:100%">
+  </div>
+    <div class="mySlides">
+    <div class="numbertext">10 - 12</div>
+    <img alt= "Statistics for the top 10 eSports games." src="./img/estats1.jpg" height="500" style="width:100%">
+  </div>
+    <div class="mySlides">
+    <div class="numbertext">11 - 12</div>
+    <img alt= "Image of a one of the popular game" src="./img/csgo1.jpg" height="500" style="width:100%">
+  </div>
+    <div class="mySlides">
+    <div class="numbertext">12 - 12</div>
+    <img alt= "Steam activity statistics" src="./img/steamstats.jpg" height="500" style="width:100%">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+</div>
+
+  <div class="row">
+    <div class="column">
+      <p class="demo cursor">
+    </div>
+    <div class="column">
+      <p class="demo cursor">
+    </div>
+    <div class="column">
+      <p class="demo cursor">
+    </div>
+    <div class="column">
+      <p class="demo cursor">
+    </div>
+    <div class="column">
+      <p class="demo cursor">
+    </div>    
+    <div class="column">
+      <p class="demo cursor">
+    </div>
+	<div class="column">
+      <p class="demo cursor">
+    </div>
+	<div class="column">
+      <p class="demo cursor">
+    </div>
+  </div>
+	<div class="column">
+      <p class="demo cursor">
+    </div>
+  </div>
+	<div class="column">
+      <p class="demo cursor">
+    </div>
+	<div class="column">
+      <p class="demo cursor">
+    </div>
+	<div class="column">
+      <p class="demo cursor">
+    </div>
+        <footer id = "footer">
+            <p> 
+                <span class="text_footer"> &copy;</span>
+                <a class="footer-a-tag" href="dcu.ie/">DCU 2020-2021</a>
+                <span class="text_footer">&middot;</span>
+                <span class="text_footer">CA106</span>
+                <span class="text_footer">&middot;</span>
+                <span class="text_footer">Dawid Lewinski</span>
+                <span class="text_footer">&middot;</span>
+                <span class="text_footer">Group 21</span> 
+                <span class="text_footer">&middot;</span> 
+                <span class="text_footer">Group Project</span> 
+                <span class="text_footer">&middot;</span> 
+                <span class="text_footer">Lecturer <a class="footer-a-tag" href="http://www.computing.dcu.ie/~jkernan">Jane Kernan</a></span> 
+                <span class="text_footer">&middot;</span> 
+                <span class="text_footer">
+                    <a class="footer-a-tag" href="http://validator.w3.org/check?uri=referer" title="W3C HTML Validation Service" >Valid HTML</a><br/>
+                </span> 
+            </p>              
+        </footer> 
+    </body>
+</html>

@@ -1,0 +1,25 @@
+.row {
+    
+    padding: 10px;
+    width: 90%;
+    background-color: rgba(149, 149, 149, 0.575);
+    border-radius: 25px; 
+    position: absolute;
+    left: 5%;
+    top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    line-height: 200px;
+    height: 200px;
+}
+
+.collums{
+    width: 19%;
+    float: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

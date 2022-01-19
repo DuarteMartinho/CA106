@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html {
+    font-family: "Montserrat", sans-serif;
+    background:url('background.jpg') no-repeat center center fixed;
+    /* background was found from unsplashed */
+    
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.about {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    text-align: left;
+    margin-top: 150px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+    padding: 20px;
+}
+
+.column {
+    margin-top: 0px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 10px;
+    opacity: 0.9;
+    
+  }
+.column2 {
+    float: left;
+    width: auto;
+    height: auto;
+  }
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.filter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    opacity: 0.7;
+  }
+
+table{
+    margin-top: 425px;
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    right: 0%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 400px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 5px rgb(32,32,32.3);
+    background: #fafafa;
+    text-align: center;
+    opacity: 0.9;
+  }
+
+th,td {
+    padding: 10px 15px;
+  }
+
+th {
+    background: rgb(24, 144, 224);
+    color: #fafafa;
+    text-transform: uppercase;
+  }
+
+.video {
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.about2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    text-align: left;
+    margin-top: 0;
+    margin-left: 20px;
+    margin-bottom: 100px;
+    padding: 20px;
+}
+
+.about3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    text-align: left;
+    padding: 20px;
+}

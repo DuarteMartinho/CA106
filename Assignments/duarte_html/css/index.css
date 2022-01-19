@@ -1,0 +1,51 @@
+html {
+  background-color: gray;
+}
+
+.nav_bar {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.active {
+  color: rgb(92, 195, 255);
+}
+
+.mainsection {
+  margin-top: 75px;
+}
+
+/* FIX POSITION ON OTHER DEVICES */
+@media screen and (max-width: 1000px) {
+  .mainsection {
+    margin-top: 75px;
+  }
+}
+  
+@media screen and (max-width: 771px) {
+  .mainsection {
+    margin-top: 144px;
+  }
+}
+  
+@media screen and (max-width: 640px) {
+  .mainsection {
+    margin-top: 216px;
+  }
+}
+  
+@media screen and (max-width: 420px) {
+  .mainsection {
+    margin-top: 285px;
+  }
+}
+  
+@media screen and (max-width: 264px) {
+  .mainsection {
+    margin-top: 450px;
+  }
+}
+
+.title {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
